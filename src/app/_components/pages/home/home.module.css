@@ -7,4 +7,14 @@
   align-items: center;
 
   flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  font-family: var(--mainFont);
+  font-size: 14px;
+
+  width: 80vw;
+
+  text-align: center;
 }

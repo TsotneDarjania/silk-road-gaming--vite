@@ -5,7 +5,9 @@ import AuthenticationForm from "./components/authenticationForm/AuthenticationFo
 const Home = () => {
   return (
     <div className={style.home}>
-      <h1>Authentication is required before taking any action on this site </h1>
+      <h1 className={style.title}>
+        * Authentication is required before taking any action on this site{" "}
+      </h1>
       <AuthenticationForm />
     </div>
   );
